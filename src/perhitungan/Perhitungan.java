@@ -59,7 +59,7 @@ public class Perhitungan {
         }
         
         //inputan untuk melakukan perulangan
-        System.out.print("Mau menghitung lagi? lagi? (Y/T) : "); 
+        System.out.print("Mau menghitung lagi?(Y/T) : "); 
         x = sc1.next();
     }
         
