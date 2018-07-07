@@ -1,12 +1,13 @@
 
 package perhitungan;
 
-/**
- *
- * @author ikhsan
- */
+import java.util.Scanner;
+
 public class Perhitungan {
 
+        Scanner sc1 = new Scanner(System.in);
+        Scanner sc2 = new Scanner(System.in);
+        Scanner sc3 = new Scanner(System.in);
 
     public static void main(String[] args) {
 
