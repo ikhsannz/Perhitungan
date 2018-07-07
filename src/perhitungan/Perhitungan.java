@@ -15,7 +15,10 @@ public class Perhitungan {
         System.out.println("Aplikasi perhitungan");  
         System.out.println("1. menghitung kecepatan (km/jam)");
         System.out.println("2. menghitung jarak (km)");     
-        System.out.println("3. menghitung waktu (jam)");   
+        System.out.println("3. menghitung waktu (jam)"); 
+        
+        for(String x = "y"; x.equals("y") || x.equals("Y");){
+                          
         System.out.print("silakan pilih perhitungan mana yang mau dihitung (1/2/3):");
         int input = sc1.nextInt(); 
         double hasil, nilai1, nilai2;
@@ -48,8 +51,13 @@ public class Perhitungan {
             System.out.println("waktu anda adalah :"+hasil+" jam");
         }
         else{
-            System.out.println("Maaf, Anda salah memasukan pilihan, cukup pilih dengan angka 1, atau 2, atau 3 !");
+            System.out.println("Maaf, Pilihan kami hanya sampai 3 !");
         }
+        
+        System.out.print("Mau menghitung lagi? lagi? (Y/T) "); 
+        x = sc1.next();
     }
+        
+   }
     
 }
